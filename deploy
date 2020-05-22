@@ -1,0 +1,6 @@
+cd backend
+vitrualenv -p python3 venv 
+. ./venv/bin/activate 
+python -m pip install -r requirements.txt
+cd project 
+./manage.py migrate 

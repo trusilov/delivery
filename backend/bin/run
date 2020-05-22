@@ -1,0 +1,5 @@
+#!/bin/bash
+
+. ./venv/bin/activate
+cd project
+./manage.py runserver 8000

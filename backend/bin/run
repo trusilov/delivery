@@ -2,4 +2,4 @@
 
 . ./venv/bin/activate
 cd project
-./manage.py runserver 8000
+./manage.py runserver 8080
